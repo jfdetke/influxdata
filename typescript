@@ -1,0 +1,11 @@
+Script started on Tue Apr 21 14:03:35 2020
+[?1034h14:03:35 jdetke@C02SG03GG8WP:~/Projects/influxdb/influxdata$ export INFLUX_TOKEN=386Ps9sKO8LYanX8oRs5YlC2rY2KhV7R6Ws9W0LE9p3x3dISKRjwDs J55gzcLdzCGOTsvMoX4YPLW7rTDV6eRg==
+14:03:40 jdetke@C02SG03GG8WP:~/Projects/influxdb/influxdata$ export INFLUX_TOKEN=386Ps9sKO8LYanX8oRs5YlC2rY2KhV7R6Ws9W0LE9p3x3dISKRjwDs J55gzcLdzCGOTsvMoX4YPLW7rTDV6eRg==
+14:03:47 jdetke@C02SG03GG8WP:~/Projects/influxdb/influxdata$ telegraf --config https://us-west-2-1.aws.cloud2.influxdata.com/api/v2/tel egrafs/0593a28c5aeeb000
+2020-04-21T21:03:54Z I! Starting Telegraf 1.14.1
+2020-04-21T21:03:54Z I! Loaded inputs: disk diskio mem net processes swap system cpu
+2020-04-21T21:03:54Z I! Loaded aggregators: 
+2020-04-21T21:03:54Z I! Loaded processors: 
+2020-04-21T21:03:54Z I! Loaded outputs: influxdb_v2
+2020-04-21T21:03:54Z I! Tags enabled: host=C02SG03GG8WP.group.on
+2020-04-21T21:03:54Z I! [agent] Config: Interval:10s, Quiet:false, Hostname:"C02SG03GG8WP.group.on", Flush Interval:10s
